@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+}
+
+body{
+font-family: 'Anton';
+}
+
+p{
+	font-family: 'Sometype Mono';
+	margin-bottom: 35px;
+	color: white;
+	font-size: 25px;
+
+}
+
+a{
+	font-family: 'Sometype Mono';
+	color: black;
+	font-size: 25px;
+	
+
+
+}
+
+
+
+h1{
+
+	color: whitesmoke;
+	font-family: 'Anton', sans-serif;
+	margin-bottom: 35px;
+	font-size: 120px;
+	text-align: left;
+	
+	
+}
+
+	nav{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 10%;
+		padding-right: 10%;
+		text-align: center;
+	}
+	nav a{
+		margin-right: 10%;
+		margin-left:10% ;
+		font-family: Anton;
+		font-size: 15px;
+		text-decoration: none;
+		transition: 0.3sec;
+	}
+
+
+	nav a:hover{
+		color: indianred;
+	}
+	.banner p{
+		margin-bottom: 25px;
+	}
+
+.btn1{
+	color: whitesmoke;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-family: Anton;
+	display: inline-block;
+	border-radius: 55px;
+	border: 1.5px solid white;
+	transition: 0.3sec;
+}
+
+.btn1:hover{
+	background: black;
+	border: black;
+
+}
+
+
+
+.banner{
+	background-image: url(texture.jpg);
+	background-size: cover;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+} 
+
+.about{
+	background-color: black;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: left;
+
+} 
+
+
+
+h2{
+	color: whitesmoke;
+	margin-bottom: 30px;
+}
+
+.projects{
+	background: whitesmoke;
+	padding: 100px 10%;
+}
+
+
+.projectgrid{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 40px;
+	font-size: 50px;
+}
+
+.projects article{
+
+
+
+}
+.petit{
+	max-width: 1000px;
+	text-align: left;
+}
+
+.btn1{
+	max-width: 1000px;
+}
+
+
+
+footer{
+	background-color: whitesmoke; 
+}
